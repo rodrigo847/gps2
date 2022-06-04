@@ -68,23 +68,24 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-.sistema button {
+.sistema a {
     
     color: white;
+    text-decoration: none;
     background-color: green;
     font-weight: medium;
     font-size: 15px;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: auto;
     margin-top: 15px;
     margin-bottom: 15px;
+    padding: 10px 20px;   
 
-    width: 50%;
+}
 
-    padding-top: 5px;
-    padding-bottom: 5px;
-
+.sistema a:hover {
+    background-color: rgb(44, 110, 88);
+    color: black;
 }
 
 .rodape {
